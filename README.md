@@ -1,7 +1,6 @@
 🚀 Flutter Week 1 – Login UI App
 
 This repository contains a basic Flutter application developed as part of Week 1: Basic Flutter Development and UI Building.
-
 The project focuses on:
 
 Understanding Flutter fundamentals
