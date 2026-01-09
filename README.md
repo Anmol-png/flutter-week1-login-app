@@ -395,11 +395,6 @@ flutter analyze
 - [x] Password visibility toggle
 - [x] Form error handling
 
-### 🔄 In Progress (Week 2)
-
-- [ ] Backend integration (Firebase Auth)
-- [ ] Registration screen
-- [ ] Password recovery flow
 
 **Made with ❤️ and Flutter**
 
