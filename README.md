@@ -63,17 +63,6 @@ The app implements a fully functional login interface with validation, demonstra
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-| Login Screen | Validation | Home Screen |
-|:------------:|:----------:|:-----------:|
-| ![Login](screenshots/login.png) | ![Validation](screenshots/validation.png) | ![Home](screenshots/home.png) |
-
-</div>
-
-> **Note:** Add your screenshots to the `screenshots/` folder for better documentation.
 
 ---
 
@@ -205,63 +194,5 @@ For development purposes, you can test with:
 - **Password:** any non-empty string (e.g., `password123`)
 
 > **Note:** This is a UI-only implementation. No actual authentication is performed.
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Backend integration with Firebase/API
-- [ ] User registration screen
-- [ ] Password recovery functionality
-- [ ] Remember me checkbox
-- [ ] Biometric authentication
-- [ ] Dark mode support
-- [ ] Localization (multi-language support)
-- [ ] Unit and widget tests
-- [ ] Social media login (Google, Facebook)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve this project:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
-
----
-
-## 🙏 Acknowledgments
-
-- Flutter documentation and community
-- Material Design guidelines
-- [Flutter Awesome](https://flutterawesome.com/) for inspiration
-
----
-
-<div align="center">
-
-**⭐ Star this repository if you found it helpful!**
-
-Made with ❤️ and Flutter
 
 </div>
