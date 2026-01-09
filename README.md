@@ -17,30 +17,7 @@
 
 ---
 
-## 📋 Table of Contents
 
-<details>
-<summary>Click to expand</summary>
-
-- [About The Project](#-about-the-project)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Learning Objectives](#-learning-objectives)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#-usage)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-- [Acknowledgments](#-acknowledgments)
-
-</details>
-
----
 
 ## 🎯 About The Project
 
@@ -69,49 +46,6 @@ This project leverages the power of:
 - **Flutter** - Google's UI toolkit for building natively compiled applications
 - **Dart** - Client-optimized programming language
 - **Material Design 3** - Latest design system from Google
-
----
-
-## 📸 Screenshots
-
-<div align="center">
-
-### Light Mode Interface
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/login.png" alt="Login Screen" width="250px">
-      <br><b>Login Screen</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/validation.png" alt="Form Validation" width="250px">
-      <br><b>Form Validation</b>
-    </td>
-    <td align="center">
-      <img src="screenshots/home.png" alt="Home Screen" width="250px">
-      <br><b>Home Screen</b>
-    </td>
-  </tr>
-</table>
-
-### UI Flow Demonstration
-
-```mermaid
-graph LR
-    A[Launch App] --> B[Login Screen]
-    B --> C{Valid Input?}
-    C -->|Yes| D[Home Screen]
-    C -->|No| E[Show Error]
-    E --> B
-    D --> F[Welcome Message]
-```
-
-</div>
-
-> 💡 **Tip:** Add your actual screenshots to the `screenshots/` folder for better documentation.
-
----
 
 ## ✨ Features
 
@@ -204,18 +138,6 @@ graph LR
 | 7 | Handle user input and events properly | ✅ Complete |
 | 8 | Apply Material Design 3 principles | ✅ Complete |
 
-### 🎯 Skills Matrix
-
-```
-Flutter Basics        ████████████████████ 100%
-Widget Composition    ████████████████████ 100%
-Form Validation       ████████████████████ 100%
-State Management      ███████████████░░░░░  75%
-Navigation            ████████████████████ 100%
-UI/UX Design          ███████████████████░  95%
-```
-
----
 
 ## 🛠 Tech Stack
 
@@ -337,10 +259,10 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 # Using HTTPS
-git clone https://github.com/your-username/flutter-week1-login-ui.git
+git clone https://github.com/Anmol-png/flutter-week1-login-app.git
 
 # OR using SSH
-git clone git@github.com:your-username/flutter-week1-login-ui.git
+git clone git@github.com:Anmol-png/flutter-week1-login-app.git
 ```
 
 #### Step 2: Navigate to Project Directory
@@ -478,173 +400,6 @@ flutter analyze
 - [ ] Backend integration (Firebase Auth)
 - [ ] Registration screen
 - [ ] Password recovery flow
-
-### 📅 Future Enhancements
-
-<details>
-<summary>Click to view planned features</summary>
-
-#### Authentication & Security
-- [ ] Firebase Authentication integration
-- [ ] JWT token management
-- [ ] Biometric authentication (fingerprint/face ID)
-- [ ] Two-factor authentication (2FA)
-- [ ] Session management & auto-logout
-
-#### UI/UX Improvements
-- [ ] Dark mode support
-- [ ] Onboarding screens
-- [ ] Loading animations & skeletons
-- [ ] Custom splash screen
-- [ ] Error screen with retry option
-- [ ] Success/failure snackbars
-
-#### Features
-- [ ] "Remember Me" checkbox with secure storage
-- [ ] Social media login (Google, Facebook, Apple)
-- [ ] Multi-language support (i18n)
-- [ ] User profile management
-- [ ] Password strength indicator
-- [ ] Email verification flow
-
-#### Code Quality
-- [ ] Unit tests (90%+ coverage)
-- [ ] Widget tests
-- [ ] Integration tests
-- [ ] CI/CD pipeline (GitHub Actions)
-- [ ] Code documentation (DartDoc)
-- [ ] Performance optimization
-
-#### DevOps
-- [ ] Automated testing
-- [ ] Crashlytics integration
-- [ ] Analytics (Firebase/Google Analytics)
-- [ ] App Store & Play Store deployment
-
-</details>
-
----
-
-## 🤝 Contributing
-
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
-
-### How to Contribute
-
-1. **Fork the Project**
-   ```bash
-   # Click the 'Fork' button at the top right of this page
-   ```
-
-2. **Create your Feature Branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Commit your Changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-
-4. **Push to the Branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-5. **Open a Pull Request**
-   - Go to your forked repository on GitHub
-   - Click "New Pull Request"
-   - Provide a clear description of your changes
-
-### Contribution Guidelines
-
-- Write clean, maintainable code
-- Follow Dart style guide
-- Add comments for complex logic
-- Update documentation as needed
-- Test your changes thoroughly
-- Keep commits atomic and well-described
-
-### 🐛 Found a Bug?
-
-If you find a bug, please [open an issue](https://github.com/your-username/flutter-week1-login-ui/issues/new) with:
-- Bug description
-- Steps to reproduce
-- Expected vs actual behavior
-- Screenshots (if applicable)
-- Device/platform information
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) file for more information.
-
-```
-MIT License
-
-Copyright (c) 2024 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
-```
-
----
-
-## 📞 Contact
-
-<div align="center">
-
-### 👨‍💻 Your Name
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://your-portfolio.com)
-
-**Project Link:** [https://github.com/your-username/flutter-week1-login-ui](https://github.com/your-username/flutter-week1-login-ui)
-
-</div>
-
----
-
-## 🙏 Acknowledgments
-
-Special thanks to these amazing resources:
-
-- 📚 [Flutter Documentation](https://docs.flutter.dev/) - Official Flutter docs
-- 🎨 [Material Design 3](https://m3.material.io/) - Design guidelines
-- 💡 [Flutter Community](https://flutter.dev/community) - Helpful community
-- 🎓 [Dart Language Tour](https://dart.dev/guides/language/language-tour) - Dart fundamentals
-- 🚀 [Flutter Awesome](https://flutterawesome.com/) - Curated Flutter resources
-- 📝 [Best README Template](https://github.com/othneildrew/Best-README-Template) - README inspiration
-- 🎯 [Choose an Open Source License](https://choosealicense.com) - License guide
-- 📊 [Shields.io](https://shields.io) - Badge generator
-
-### 🌟 Inspiration
-
-This project was inspired by:
-- Modern mobile banking apps
-- Google's Material Design case studies
-- Flutter's official sample projects
-
----
-
-<div align="center">
-
-### ⭐ Star this repository if you found it helpful!
-
-<a href="https://github.com/your-username/flutter-week1-login-ui/stargazers">
-  <img src="https://img.shields.io/github/stars/your-username/flutter-week1-login-ui?style=social" alt="Stars">
-</a>
-<a href="https://github.com/your-username/flutter-week1-login-ui/network/members">
-  <img src="https://img.shields.io/github/forks/your-username/flutter-week1-login-ui?style=social" alt="Forks">
-</a>
-<a href="https://github.com/your-username/flutter-week1-login-ui/watchers">
-  <img src="https://img.shields.io/github/watchers/your-username/flutter-week1-login-ui?style=social" alt="Watchers">
-</a>
-
----
 
 **Made with ❤️ and Flutter**
 
